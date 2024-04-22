@@ -1,0 +1,75 @@
+.headerSection {
+    background-color: yellow;
+    height: 14vh;
+}
+.headerPart {
+    height: 7vh;
+    text-align: center;
+}
+#searchBar {
+    height: 2.5vh;
+    margin-top: 2vh;
+}
+.navBar {
+    border-style: solid;
+    line-height: 6vh;
+    text-align: center;
+}
+.navOptions {
+    vertical-align:middle;
+    line-height: normal;
+    margin-left: 2vw;
+}
+.navOptions:hover{
+    padding: 0.5%;
+    transition-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.content {
+    margin-top: 10px;
+    background-color:darkgrey;
+    height: 85vh;
+    text-align: center;
+}
+.benefits {
+    height: 15vw;
+    width: 86vw;
+    margin-top: 5vw;
+    background-color: white;
+    display: inline-block;
+    border-radius: 1vw;
+}
+.offer, .firstOffer{
+    height: 15vw;
+    width: 20vw;
+    float: left;
+    text-align: left;
+}
+.firstOffer {
+    border-right: solid rgb(146,144,144) 2px;
+}
+.offerTitle {
+    margin-top: 3.5vh;
+}
+.offerTitle, .subTitle{
+    margin-left: 1vw;
+}
+.contents {
+    width: 80vw;
+    margin-top: 5vw;
+    display: inline-block;
+}
+.marketItem {
+    background-color: white;
+    height: 244px;
+    width: 15vw;
+    float: left;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    overflow: hidden;
+}
+.marketItem:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    height: 330px;
+}

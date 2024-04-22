@@ -1,0 +1,19 @@
+.introducao {
+    background-color: red;
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+.bloco {
+    background-color: purple;
+    max-width: 90vw;
+    height: 500px;
+    margin: 0 auto;
+}
+.card {
+    float: left;
+    background-color: red;
+    margin: 1vw 1.25vw;
+    width: 20vw;
+    height: 100px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="headerSection">
+        <article class="searchSection">
+            <input type="text" id="searchBar" placeholder="Procurar por...">
+        </article>
+        <article class="navBar">
+            <a class="navOptions" href="categoria.html">Categorias</a>
+            <a class="navOptions" href="ofertadia.html">Ofertas do Dia</a>
+            <a class="navOptions" href="historico.html">Histórico</a>
+            <a class="navOptions" href="moda.html">Moda</a>
+            <a class="navOptions" href="cadastrar.html">Cadastrar</a>
+        </article>
+    </section>
+    <form>
+        <div class="cadastro">
+            <label for="nomeCadastro">Nome:</label>
+            <input type="text" name="nome" id="nomeCadastro" placeholder="digite seu nome">
+        </div>
+        <div class="cadastro">
+            <label for="e-mailCadastro">E-mail:</label>
+            <input type="text" name="e-mail" id="e-mailCadastro" placeholder="digite seu e-mail">
+        </div>
+        <div class="cadastro">
+            <label for="senhaCadstro">Senha:</label>
+            <input type="text" name="senha" id="senhaCadstro" placeholder="digite sua senha">
+        </div>
+        <div class="cadastro">
+            <label for="repetirSenhaCadastro">Confirmar Senha:</label>
+            <input type="text" name="repetirSenha" id="repetirSenhaCadastro" placeholder="repita sua senha">
+        </div>
+        <div class="cadastro">
+            <label for="generoCadastro">Gênero:</label>
+            <input type="hidden" name="generoCadastro">
+            <label for="opcaoMasculino">Masculino:</label>
+            <input type="radio" name="masculino" id="opcaoMasculino">
+            <label for="opcaoFeminino">Feminino:</label>
+            <input type="radio" name="feminino" id="opcaoFeminino">
+        </div>
+    </form>
+</body>
+</html>
